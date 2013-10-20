@@ -44,6 +44,7 @@ namespace wojilu.Installer {
             ContextInitDefault init = new ContextInitDefault();
             init.InitController( ctx );
             ctx.utils.skipCurrentProcessor( true ); // 跳过下面正常的init
+            string s = "测试github！";
         }
 
 
